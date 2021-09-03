@@ -1,7 +1,13 @@
+/*
+Math Magic
+Up until this point, you were a Kotlin developer in training. For this project, you’ll take on another role and become a mathemagician 🧙‍♂️
+
+We’ll build a program that determines a user’s age using our knowledge of fundamental Kotlin concepts and arithmetic operations. Take a peek at the solution code at the end of the project if you’d like to check your answers.
+ */
 fun main() {
-    /*
-     This program determines the user's age using an arithmetic magic trick.
-    */
+
+    //Variable Declarations
+
     println("What's your name?")
     val userName = readLine()
 
@@ -9,6 +15,8 @@ fun main() {
     val age = Integer.valueOf(readLine())
     val firstDigit = age / 10
     val secondDigit = age % 10
+
+    //Abracadabra 🧙‍♂️
 
     var magicNum : Int
 
